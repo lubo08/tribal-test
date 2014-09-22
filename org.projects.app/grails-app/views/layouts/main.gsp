@@ -31,7 +31,7 @@
 					<div class="row">
 						<div class="navbar" role="navigation">
 							<ul class="nav nav-sidebar">
-								<li><a href="/org.projects.app" >Home</a></li>
+								<li class="active"><a href="/org.projects.app" >Home</a></li>
 								<li><a href="/org.projects.app/project" >Projects</a></li>
 								<li><a href="http://getbootstrap.com/" >Nav Item 2</a></li>
 								<li><a href="http://getbootstrap.com/" >Nav Item 3</a></li>
@@ -50,14 +50,15 @@
 		            <div class="row-fluid h-100 p-null" >
 			            <div id="sidebar" class="col-sm-3 col-md-2 sidebar h-100 p-null">
 			                <ul class="nav nav-sidebar h-100 p-null">
-			                    <li><a href="/org.projects.app" >Home</a></li>
+			                    <li class="active"><a href="/org.projects.app" >Home</a></li>
 			                    <li><a href="/org.projects.app/project" >Projects</a></li>
 								<li><a href="http://getbootstrap.com/" >Nav Item 2</a></li>
 								<li><a href="http://getbootstrap.com/" >Nav Item 3</a></li>
 								<li><a href="http://getbootstrap.com/" >Nav Item 4</a></li>
 			                </ul>
 			            </div>
-			            <div class="col-md-9 content ">
+			            <div class="col-md-9 content">
+			                
 			                <g:layoutBody/>
 			            </div>  
 		            </div>          
